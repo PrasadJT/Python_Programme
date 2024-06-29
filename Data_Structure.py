@@ -68,7 +68,7 @@ print(y)
 x.clear()
 print(x)
 
-'''
+
 
 x = {
     "a":['Hello','Hi','Good morning'],
@@ -79,3 +79,78 @@ y = x['a']
 y.append('Good afternoon')
 print(y)
 print(x)
+
+'''
+
+#Set...
+'''
+x = {"Hello","World","Hello","1","1"}
+
+x.add("World")
+x.add("World")#hash function
+
+x.remove('1')
+
+print(x)
+
+
+#x = {'A','B'}
+#y = x['A']
+#print(y)
+
+x = {"Hello","World","Hello","1","1"}
+#y = {"x","y"}
+#z = x.union(y)
+#z = x | y
+#print(z)
+
+y = {"1","2"}
+z = x - y
+print(z)
+
+
+
+#Tuples..
+
+John = ("Jhon",176,"Sri Lanka","Germany")
+
+print(type(John))
+print(John)
+
+name = John[0]
+print(name)
+print(John[1])
+
+print(John.count("Jhon"))
+
+
+
+x = (1,"Jhon",176)
+
+index,name,height = x
+print(type(x),x)
+print(index,name,height)
+
+
+x = ['a','b','c','d']
+
+#slicing
+y = x[2:4]
+y = x[2:]
+y = x[:2]
+y = x[:-1]
+y = x[:7]
+
+
+
+print(y)
+print(len(y)) #lenght
+
+'''
+
+x = "HELLO WORLD"
+y = x[0:-1]
+
+print(x[6])
+print(y)
+
