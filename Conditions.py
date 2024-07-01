@@ -171,7 +171,7 @@ while True:
 
     print("Count",count)
     count += 1 
-'''
+
 x = [12, 23, 567, 123, 8]
 
 count = 0
@@ -196,3 +196,113 @@ while True:
     print(i ** 2)
 
     count += 1
+
+    '''
+'''
+x = [12,23,567,123,88]
+
+total = 0
+
+for i in x:
+    total += i
+
+print("total",total)
+print("Avg",total/len(x))
+'''
+
+'''
+x = [12,23,567,123,88,599]
+
+max = x[0]
+min = x[0]
+
+for i in x:
+    if max < i:
+        max = i
+    if min > i:
+        min = i
+
+print("Max",max)
+print("Min",min)
+
+'''
+'''
+x = [12,23,567,123,88,599]
+
+count = 0
+total = 0 
+
+while count < len(x):
+    item = x[count]
+
+    total += item
+    count += 1
+
+print("Total",total)
+print("Avg",total/len(x))
+'''
+'''
+x = [12,23,567,123,88,599]
+
+count = 0
+total = 0 
+
+min = max = x[0]
+
+while count < len(x):
+    item = x[count]
+
+    if item > max:
+        max = item
+    
+    if item < min:
+        min = item
+
+
+
+    count += 1
+
+print("Max",max)
+print("Min",min)
+
+'''
+
+#Iteration...
+'''
+d = {
+    "kasun":176,
+    "Saman":167,
+    "Ruwan":159,
+    "Siri":160
+}
+
+for name in d:
+    height = d[name]
+    print(name,height)
+
+'''
+'''
+d = {
+    "kasun":176,
+    "Saman":167,
+    "Ruwan":159,
+    "Siri":160
+}
+
+#for name in d.items():
+  #  print(type(name))
+    #print(name)
+
+for name,height in d.items():
+    print(name,height)
+
+'''
+d = {
+    "kasun"
+    "Saman"
+    "Ruwan"
+    "Siri"
+}
+
+for name in d:
+    print(name)
